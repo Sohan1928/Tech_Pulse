@@ -1,25 +1,20 @@
 import { Link, NavLink } from "react-router-dom";
+import "./Nav.css";
 
 const Navbar = () => {
   const navLinks = (
     <>
-      <li>
+      <nav className="flex space-x-4 font-semibold items-center text-lg">
         <NavLink to="/">Home</NavLink>
-      </li>
-      <li>
         <NavLink to="/Services">Services</NavLink>
-      </li>
-      <li>
         <NavLink to="/Contact">Contact</NavLink>
-      </li>
-      <li>
         <NavLink to="/AboutUs">About Us</NavLink>
-      </li>
+      </nav>
     </>
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,15 +40,31 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <Link to="/">
-          <p className="text-3xl font-bold">TectPuls</p>
-        </Link>
+        <div className="flex">
+          <Link to="/">
+            <img className="w-12 h-" src="logo.png" alt="" />
+          </Link>
+          <Link to="/">
+            <p className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-700 to-violet-700">
+              TechPuls
+            </p>
+          </Link>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-4">
+        <Link to="/login">
+          <p className="btn-grad">
+            <button>Login</button>
+          </p>
+        </Link>
+        <Link to="/signUp">
+          <p className="btn-grad">
+            <button>Sign Up</button>
+          </p>
+        </Link>
       </div>
     </div>
   );

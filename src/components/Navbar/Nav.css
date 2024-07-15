@@ -1,0 +1,59 @@
+nav a.active {
+  color: rgb(2, 192, 192);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #a7fff0 0%,
+    #2f837c 51%,
+    #0082ba 100%
+  );
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(51, 73, 71, 0.52),
+      rgba(49, 138, 150, 0.73)
+    ),
+    url("back_img.jpg");
+}
+
+.login-back-color {
+  background-color: rgb(23, 43, 53);
+  border: 1.5px;
+  border-style: solid;
+  border-color: rgb(43, 190, 185);
+}
+
+.login-back-color:hover {
+  box-shadow: 0 0 10px #58fffc;
+}
+
+.btnStyle {
+  font-size: 18px;
+  font-weight: 700;
+  border: 1.5px;
+  border-style: solid;
+  border-color: rgb(43, 190, 185);
+}

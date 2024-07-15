@@ -1,9 +1,14 @@
-import Navbar from "../Navbar/Navbar";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Helmet>
+        <title>TechPulse|Home</title>
+      </Helmet>
+      <div className="h-screen">
+        <h1>Home</h1>
+      </div>
     </div>
   );
 };

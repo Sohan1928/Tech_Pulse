@@ -35,17 +35,17 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3  p-2 shadow"
           >
             {navLinks}
           </ul>
         </div>
         <div className="flex">
           <Link to="/">
-            <img className="w-12 h-" src="logo.png" alt="" />
+            <img className="w-12" src="logo.png" alt="" />
           </Link>
           <Link to="/">
-            <p className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-700 to-violet-700">
+            <p className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-700 to-violet-700">
               TechPuls
             </p>
           </Link>

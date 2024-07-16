@@ -6,6 +6,9 @@ import BlogPost from "../BlogPost/BlogPost";
 import GenerateCopy from "../GenerateCopy/GenerateCopy";
 import GenerateContent from "../GenerateContent/GenerateContent";
 import Footer from "../Footer/Footer";
+import Awards from "../Awards/Awards";
+import MeetClient from "../MeetClient/MeetClient";
+import Pricing from "../Pricing/Pricing";
 
 const Home = () => {
   return (
@@ -19,6 +22,9 @@ const Home = () => {
       <BlogPost></BlogPost>
       <GenerateCopy></GenerateCopy>
       <GenerateContent></GenerateContent>
+      <Awards></Awards>
+      <MeetClient></MeetClient>
+      <Pricing></Pricing>
       <Footer></Footer>
     </div>
   );

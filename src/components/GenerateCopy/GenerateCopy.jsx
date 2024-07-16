@@ -24,7 +24,7 @@ const GenerateCopy = () => {
             <IoMdCheckmarkCircle className="text-xl text-[#14fffb]"></IoMdCheckmarkCircle>
             <h3>Country Citizenship</h3>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 pb-1">
             <IoMdCheckmarkCircle className="text-xl text-[#14fffb]"></IoMdCheckmarkCircle>
             <h3>Settling In Country</h3>
           </div>

@@ -21,7 +21,7 @@ const GenerateContent = () => {
             <p className="opacity-70">
               Convert data noise intelligent for a quis lorem.
               <h4 className="flex justify-center py-5">
-                <Link>
+                <Link to="/aboutService">
                   <HiArrowLongRight className="text-3xl animate-bounce hover:text-[#03fff2]"></HiArrowLongRight>
                 </Link>
               </h4>
@@ -35,7 +35,7 @@ const GenerateContent = () => {
             <p className="opacity-70">
               Convert data noise intelligent for a quis lorem.
               <h4 className="flex justify-center py-5">
-                <Link>
+                <Link to="/aboutService">
                   <HiArrowLongRight className="text-3xl animate-bounce hover:text-[#03fff2]"></HiArrowLongRight>
                 </Link>
               </h4>
@@ -47,7 +47,7 @@ const GenerateContent = () => {
             <p className="opacity-70">
               Convert data noise intelligent for a quis lorem.
               <h4 className="flex justify-center py-5">
-                <Link>
+                <Link to="/aboutService">
                   <HiArrowLongRight className="text-3xl animate-bounce hover:text-[#03fff2]"></HiArrowLongRight>
                 </Link>
               </h4>
@@ -61,7 +61,7 @@ const GenerateContent = () => {
             <p className="opacity-70">
               Convert data noise intelligent for a quis lorem.
               <h4 className="flex justify-center py-5">
-                <Link>
+                <Link to="/aboutService">
                   <HiArrowLongRight className="text-3xl animate-bounce hover:text-[#03fff2]"></HiArrowLongRight>
                 </Link>
               </h4>
@@ -73,7 +73,7 @@ const GenerateContent = () => {
             <p className="opacity-70">
               Convert data noise intelligent for a quis lorem.
               <h4 className="flex justify-center py-5">
-                <Link>
+                <Link to="/aboutService">
                   <HiArrowLongRight className="text-3xl animate-bounce hover:text-[#03fff2]"></HiArrowLongRight>
                 </Link>
               </h4>
@@ -85,7 +85,7 @@ const GenerateContent = () => {
             <p className="opacity-70">
               Convert data noise intelligent for a quis lorem.
               <h4 className="flex justify-center py-5">
-                <Link>
+                <Link to="/aboutService">
                   <HiArrowLongRight className="text-3xl animate-bounce hover:text-[#03fff2]"></HiArrowLongRight>
                 </Link>
               </h4>

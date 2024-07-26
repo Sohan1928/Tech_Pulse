@@ -33,7 +33,7 @@ const BlogPost = () => {
             </button>
           </div>
         </div>
-        <div className="mr-8 pl-3 ">
+        <div className="mr-8 pl-3 mt-4">
           <img src="service-2.svg" alt="" />
         </div>
       </div>

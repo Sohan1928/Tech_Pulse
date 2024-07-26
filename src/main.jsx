@@ -10,11 +10,14 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import { HelmetProvider } from "react-helmet-async";
 import Login from "./components/Navbar/Login/Login";
 import SignUp from "./components/Navbar/SignUp/SignUp";
+import AboutService from "./components/AboutService/AboutService";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -39,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/signUp",
         element: <SignUp></SignUp>,
+      },
+      {
+        path: "/aboutService",
+        element: <AboutService></AboutService>,
       },
     ],
   },

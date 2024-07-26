@@ -4,7 +4,7 @@ import "./Nav.css";
 const Navbar = () => {
   const navLinks = (
     <>
-      <nav className="flex space-x-4 font-semibold items-center text-lg">
+      <nav className="lg:flex space-x-4 font-semibold items-center text-lg">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/Services">Services</NavLink>
         <NavLink to="/Contact">Contact</NavLink>
@@ -35,9 +35,21 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3  p-2 shadow"
+            className="menu menu-sm dropdown-content bg-[#234b5e] rounded-box z-[1] mt-3 p-2 shadow"
           >
             {navLinks}
+            <div className="navbar-end gap-4">
+              <Link to="/login">
+                <p className="btn-grad">
+                  <button>Login</button>
+                </p>
+              </Link>
+              <Link to="/signUp">
+                <p className="btn-grad">
+                  <button>Sign Up</button>
+                </p>
+              </Link>
+            </div>
           </ul>
         </div>
         <div className="flex">
@@ -52,19 +64,21 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navLinks}</ul>
-      </div>
-      <div className="navbar-end gap-4">
-        <Link to="/login">
-          <p className="btn-grad">
-            <button>Login</button>
-          </p>
-        </Link>
-        <Link to="/signUp">
-          <p className="btn-grad">
-            <button>Sign Up</button>
-          </p>
-        </Link>
+        <ul className="menu menu-horizontal flex px-1">
+          {navLinks}
+          <div className="pl-20 flex gap-4">
+            <Link to="/login">
+              <p className="btn-grad">
+                <button>Login</button>
+              </p>
+            </Link>
+            <Link to="/signUp">
+              <p className="btn-grad">
+                <button>Sign Up</button>
+              </p>
+            </Link>
+          </div>
+        </ul>
       </div>
     </div>
   );

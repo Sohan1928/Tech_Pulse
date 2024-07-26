@@ -5,21 +5,15 @@ nav a.active {
 }
 
 .btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #a7fff0 0%,
-    #2f837c 51%,
-    #0082ba 100%
-  );
-  margin: 10px;
+  background-image: linear-gradient(to right, #469e8f 0%, #03899b 100%);
+  margin: 12px;
   padding: 10px 35px;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
-  transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 10px #31ffea;
   border-radius: 10px;
   display: block;
 }

@@ -5,7 +5,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 const MeetClient = () => {
   return (
     <div className="px-4">
-      <div className="py-10 px-4  items-center bg-[#172b35]">
+      <div className="py-10 items-center bg-[#172b35]">
         <div className="text-center">
           <h1 className="text-3xl lg:text-5xl font-bold pb-5">
             Meet our Happy Clients
